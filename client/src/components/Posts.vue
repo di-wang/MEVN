@@ -3,13 +3,13 @@
     <h1>Posts</h1>
     This file will list all the posts.
 
-    <div( v-for="(post, index) in posts" , :key="index" )>
+    <div v-for = "(post , index) in posts" :key = "index" >
       <p>
-        <span><b>{{ post.title }}</b></span><br />
+        <span><b>{{ post.title }}</b></span>
         <span>{{ post.description }}</span>
       </p>
     </div>
-  </div>
+    </div>
 </template>
 
 <script>

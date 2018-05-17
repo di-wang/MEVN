@@ -21,8 +21,4 @@ app.get('/posts', (req, res) => {
 })
 
 
-
-
-
-
 app.listen(process.env.PORT || 8081)
